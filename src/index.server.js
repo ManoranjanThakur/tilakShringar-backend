@@ -49,6 +49,6 @@ app.use('/api',orderRoutes)
 
 
 
-app.listen(process.env.PORT,()=>{
-    console.log(`server running at ${process.env.PORT}`);
+app.listen(2000,()=>{
+    console.log(`server running at ${2000}`);
 });
