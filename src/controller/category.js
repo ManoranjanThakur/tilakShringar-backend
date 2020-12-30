@@ -30,7 +30,7 @@ exports.addCategory = (req,res) =>{
     }
 
     if(req.file){
-        categoryObj.categoryImage = 'http://localhost:2000' + '/public/' + req.file.filename;
+        categoryObj.categoryImage = 'http://139.59.92.185:2000' + '/public/' + req.file.filename;
     }
 
     if(req.body.parentId){
